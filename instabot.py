@@ -11,7 +11,7 @@ hashtag = input("What hashtag to use? : ")
 message = input("What do you want to comment? : ")
 
 
-browser = webdriver.Chrome('/Users/pratiksharma/Desktop/instabot/chromedriver')
+browser = webdriver.Chrome('PATH TO CHROMEDRIVER')
 browser.implicitly_wait(5)
 
 browser.get("https://www.instagram.com/")
